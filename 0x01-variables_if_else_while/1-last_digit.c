@@ -6,7 +6,7 @@
  *Return: Always 0 (Success)
  */
 int main(void)
-{	
+{
 	int n;
 
 	srand(time(0));
@@ -22,7 +22,7 @@ int main(void)
 	{
 		printf("0\n");
 	}
-	else 
+	else
 	{
 		printf("less than 6 and not 0\n");
 	}
