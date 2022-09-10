@@ -1,11 +1,11 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
- * main - print lowercase a-z, then pronts uppercase A-Z
- * Return - Always 0 (Success)
- */
+* main - print lowercase a-z, then pronts uppercase A-Z
+* Return - Always 0 (Success)
+*/
 
-int main
+int main(void)
 {
 	char lower = 'a';
 	char upper = 'A';
@@ -21,7 +21,7 @@ int main
 		upper++;
 	}
 
-	putchar(\n)
+	putchar('\n');
 	
-	return 0
+	return 0;
 }
