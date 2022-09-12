@@ -10,23 +10,23 @@ int main(void)
 	int units;
 	int tens;
 	int hundreds;
-	int thousands;
+	int thou;
 
-	for (thousands = '0'; thousands <= '9'; thousands++)
+	for (thou = '0'; thou <= '9'; thou++)
 	{
 		for (hundreds = '0'; hundreds <= '9'; hundreds++)
 		{
-			for (tens = thousands; tens <= '9'; tens++)
+			for (tens = thou; tens <= '9'; tens++)
 			{
 				for (units = (hundreds + 1); units <= '9'; units++)
 				{
-					putchar(thousands);
+					putchar(thou);
 					putchar(hundreds);
 					putchar(' ');
 					putchar(tens);
 					putchar(units);
 
-					if (!((thousands == '9' && hundreds == '8') && (tens == '9' && units == '9')))
+					if (!((thou == '9' && hundreds == '8') && (tens == '9' && units == '9')))
 					{
 						putchar(',');
 						putchar(' ');
