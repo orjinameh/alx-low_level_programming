@@ -9,13 +9,13 @@ int main()
 
 {
 
-    char alpha;
+    int alpha;
 
-    char alpha2;
+    int alpha2;
 
-    char alpha3;
+    int alpha3;
 
-    char alpha4;
+    int alpha4;
 
     for (alpha4 = '0'; alpha4 <= '9'; alpha4++)
 
@@ -29,7 +29,7 @@ int main()
 
             {
 
-                for(alpha= (alpha3 + '1'); alpha <= '9'; alpha++)
+                for(alpha= (alpha3 + 1); alpha <= '9'; alpha++)
 
                 {
 
