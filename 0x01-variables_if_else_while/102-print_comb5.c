@@ -25,11 +25,11 @@ int main()
 
         {
 
-            for(alpha2 = alpha4; alpha2 <= '9'; alpha2++)
+            for(alpha2 = (alpha4); alpha2 <= '9'; alpha2++)
 
             {
 
-                for(alpha= (alpha3 + 1); alpha <= '9'; alpha++)
+                for(alpha= (alpha3 + '1'); alpha <= '9'; alpha++)
 
                 {
 
