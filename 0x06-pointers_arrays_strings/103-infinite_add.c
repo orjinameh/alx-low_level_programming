@@ -5,7 +5,8 @@
  * @s: string to be encoded
  * Return: the resulting strring
  */
-char *rot13(char *s)
+
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int i, j;
 
