@@ -17,7 +17,7 @@ void print_times_table(int n)
 
 			for (y_axis = n; y_axis >= 0; y_axis--)
 			{
-				_putchar(pn);
+				_putchar(pn + '0');
 				if (y_axis > 0)
 				{
 					_putchar(',');
