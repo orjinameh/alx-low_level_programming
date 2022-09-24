@@ -15,6 +15,7 @@ void print_times_table(int n)
 		for (x_axis = n; x_axis >= 0; x_axis--)
 		{
 			pn = '0';
+			inc = 0;
 
 			for (y_axis = n; y_axis >= 0; y_axis--)
 			{
