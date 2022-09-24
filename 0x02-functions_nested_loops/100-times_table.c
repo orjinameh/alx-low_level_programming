@@ -7,7 +7,8 @@
 
 void print_times_table(int n)
 {
-	int x_axis, y_axis, pn, inc;
+	int x_axis, y_axis, inc;
+	char pn;
 
 	if (n < 16 && n >= 0)
 	{
