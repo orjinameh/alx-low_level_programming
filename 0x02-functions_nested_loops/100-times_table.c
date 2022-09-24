@@ -15,7 +15,7 @@ void print_times_table(int n)
 		{
 			pn = 0;
 
-			for (y_axis = n; y_axis >= 0; y_axis-- )
+			for (y_axis = n; y_axis >= 0; y_axis--)
 			{
 				_putchar(pn);
 				if (y_axis > 0)
@@ -29,5 +29,4 @@ void print_times_table(int n)
 			inc += 1;
 		}
 	}
-	
 }
