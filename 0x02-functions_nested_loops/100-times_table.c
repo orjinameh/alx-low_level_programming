@@ -34,7 +34,18 @@ void print_times_table(int n)
 				{
 					_putchar((pn / 10) + '0');
 					_putchar((pn % 10) + '0');
+					if (y_axis <= 9)
+					{
+						_putchar(',');
+						_putchar(' ');
+					}
+					if (y_axis <= 99)
+					{
+						_putchar(',');
+						_putchar(' ');
+					}
 				}
+
 				pn += inc;
 			}
 			_putchar('\n');
