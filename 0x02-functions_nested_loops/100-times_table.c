@@ -33,7 +33,7 @@ void print_times_table(int n)
 				if (pn > 9 && pn <= 99)
 				{
 					_putchar((pn / 10) + '0');
-					_putchar((pn % 10) + '0')
+					_putchar((pn % 10) + '0');
 				}
 				pn += inc;
 			}
