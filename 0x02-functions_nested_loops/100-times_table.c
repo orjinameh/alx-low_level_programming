@@ -12,7 +12,7 @@ void print_times_table(int n)
 
 	if (n < 16 && n >= 0)
 	{
-		inc = '0';
+		inc = 0;
 
 		for (x_axis = n; x_axis >= 0; x_axis--)
 		{
