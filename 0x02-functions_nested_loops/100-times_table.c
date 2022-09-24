@@ -27,6 +27,8 @@ void print_times_table(int n)
 					_putchar(' ');
 					if (y_axis <= 9)
 						_putchar(' ');
+					if (y_axis <= 99)
+						_putchar(' ');
 				}
 				pn += inc;
 			}
