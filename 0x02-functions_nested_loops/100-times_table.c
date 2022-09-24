@@ -20,7 +20,8 @@ void print_times_table(int n)
 
 			for (y_axis = n; y_axis >= 0; y_axis--)
 			{
-				_putchar(pn);
+				if (pn < '9')
+					_putchar(pn);
 				if (y_axis > 0)
 				{
 					_putchar(',');
