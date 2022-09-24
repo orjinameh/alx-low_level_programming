@@ -24,7 +24,6 @@ void print_times_table(int n)
 				if (y_axis > 0)
 				{
 					_putchar(',');
-					_putchar(' ');
 					if (y_axis <= 9)
 						_putchar(' ');
 					if (y_axis <= 99)
